@@ -16,6 +16,10 @@ body {
   sans-serif;
 }
 
+p {
+  font-size: 12px;
+}
+
 .container {
   width: 80%;
   margin: 30px auto;
@@ -80,18 +84,13 @@ section.banner {
   line-height: 130%;
 }
 
-p {
-  font-size: 12px;
-}
-
 /* MAIN */
 main {
   margin-bottom: 10px;
 }
 
 main .title {
-  height: 15%;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   padding-top: 10px;
 }
 
@@ -107,7 +106,6 @@ main .title {
 
 main .col {
   float: left;
-  height: 80%;
 }
 
 main .left-content {
@@ -123,21 +121,11 @@ main .right-content {
   width: 20%;
 }
 
-.col p {
-  color: #8C8C8C;
-}
-
-.col h3 {
-  font-size: 12px;
-  font-weight: 300;
-  padding-bottom: 10px;
-}
-
 .left-content .banner,
 .main-content .banner,
 .right-content .banner {
   width: 100%;
-  height: 50%;
+  height: 150px;
   background-size: cover;
   background-position: center;
 }
@@ -152,6 +140,16 @@ main .right-content {
 
 .right-content .banner {
   background-image: url(../img/img-3.jpg);
+}
+
+.col p {
+  color: #8C8C8C;
+}
+
+.col h3 {
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 10px;
 }
 
 /* FOOTER */
