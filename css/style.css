@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* GLOBALE */
+body {
+  font-family: 'Montserrat',
+  sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
+
+header, .highlight {
+  margin-bottom: 25px;
+}
+
+/* HEADER */
+header {
+  height: 150px;
+}
+
+.logo img {
+  height: 75px;
+  padding-right: 20px;
+  border-right: 1px solid #8C8C8C;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  padding-right: 10px;
+  line-height: 75px;
+  vertical-align: middle;
+}
+
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #8C8C8C;
+}
+
+nav li a:hover {
+  color: #BF4C2F;
+}
+
+/* HIGHLIGHT */
+section.banner {
+  height: 400px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+}
+
+.banner .background {
+  height: 400px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.text {
+  width: 50%;
+  padding: 220px 0 50px 30px;
+}
+
+.text h2 {
+  line-height: 130%;
+}
+
+/* MAIN */
+main {
+  height: 500px;
+  background-color: brown;
+  margin-bottom: 10px;
+}
+
+main .title {
+  height: 15%;
+  background-color: burlywood;
+  margin-bottom: 15px;
+}
+
+main .col {
+  float: left;
+  height: 80%;
+}
+
+main .left-content {
+  width: 20%;
+  background-color: burlywood;
+}
+
+main .main-content {
+  width: 56%;
+  margin: 0 2%;
+  background-color: burlywood;
+}
+
+main .right-content {
+  width: 20%;
+  background-color: burlywood;
+}
+
+/* FOOTER */
+footer {
+  height: 40px;
+  background-color: blueviolet;
+} 
