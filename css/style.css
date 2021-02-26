@@ -18,6 +18,7 @@ body {
 
 p {
   font-size: 12px;
+  color:#8C8C8C
 }
 
 .container {
@@ -26,7 +27,13 @@ p {
 }
 
 header, .banner {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+.banner {
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
 }
 
 .background {
@@ -38,7 +45,7 @@ header, .banner {
 /* HEADER */
 
 .logo img {
-  height: 75px;
+  height: 70px;
   padding-right: 20px;
   border-right: 1px solid #8C8C8C;
 }
@@ -47,7 +54,7 @@ nav li {
   list-style: none;
   display: inline;
   padding-right: 10px;
-  line-height: 75px;
+  line-height: 65px;
   vertical-align: middle;
 }
 
@@ -62,14 +69,6 @@ nav li a:hover {
 }
 
 /* BANNER */
-section.banner {
-  margin-bottom: 20px;
-  border-radius: 10px;
-  background-size: cover;
-  background-position: center;
-  color: #FFFFFF;
-}
-
 .bn-top {
   background-image: url(../img/banner.jpg);
 }
@@ -77,11 +76,16 @@ section.banner {
 .banner .text {
   width: 50%;
   padding: 220px 0 50px 30px;
+  color: #FFFFFF;
 }
 
 .banner .text h2 {
   font-weight: 300;
   line-height: 130%;
+}
+
+.banner p {
+  color: #FFFFFF;
 }
 
 /* MAIN */
@@ -98,10 +102,6 @@ main .title {
   font-size: 30px;
   font-weight: bold;
   line-height: 100%;
-}
-
-.title p {
-  color:#8C8C8C;
 }
 
 main .col {
@@ -121,13 +121,8 @@ main .right-content {
   width: 20%;
 }
 
-.left-content .banner,
-.main-content .banner,
-.right-content .banner {
-  width: 100%;
+main .banner {
   height: 150px;
-  background-size: cover;
-  background-position: center;
 }
 
 .left-content .banner {
@@ -140,10 +135,6 @@ main .right-content {
 
 .right-content .banner {
   background-image: url(../img/img-3.jpg);
-}
-
-.col p {
-  color: #8C8C8C;
 }
 
 .col h3 {
