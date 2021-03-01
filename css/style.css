@@ -30,15 +30,16 @@ header, .banner {
   margin-bottom: 20px;
 }
 
-.banner {
+.banner,
+.col-img {
   border-radius: 10px;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
-.background {
+.overlay {
   height: 100%;
-  border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.25);
 }
 
@@ -121,19 +122,20 @@ main .right-content {
   width: 20%;
 }
 
-main .banner {
+.col .col-img {
   height: 150px;
+  margin-bottom: 10px;
 }
 
-.left-content .banner {
+.left-content .col-img {
   background-image: url(../img/img-1.jpg);
 }
 
-.main-content .banner {
+.main-content .col-img {
   background-image: url(../img/banner-2.jpg);
 }
 
-.right-content .banner {
+.right-content .col-img {
   background-image: url(../img/img-3.jpg);
 }
 
